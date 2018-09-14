@@ -1,7 +1,7 @@
 # splab1 - shell scripting
 
 ### Aim
-To master basic and not-so-basic Linux shell commands and scripting.
+To master basic and not-so-basic UNIX/Linux shell commands and scripting.
 
 ### Tasks
 
