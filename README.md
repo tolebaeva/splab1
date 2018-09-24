@@ -5,15 +5,15 @@
 
 ### Task
 
-You are to write shell-script that will process an access [log file](http://vseloved.github.io/spos/log.txt.zip) of Apacher web-server and output some information to the console. Your script should use only standard UNIX/Linux command line tools like `cut`, `grep`, `sort`, `sed`, `date`, etc, and not to use other programming languages like `C`, `Perl`, `Python` etc. The file consists of records. Each line has only one record. A record has the following format:
+You are to write shell-script that will process an access [log file](http://vseloved.github.io/spos/log.txt.zip) of Apacher web-server and output some information to the console. Your script should use only standard command line tools like `cut`, `grep`, `sort`, `sed`, `date`, etc, and should not use other programming languages like `C`, `Perl`, `Python` etc. The file consists of records. Each line has only one record. A record has the following format:
 
 ```
 <client host> - - [<timestamp with timezone>] 
 <HTTP-request line (type, URL, version)>
 <Code of HTTP-response>
-<Numeber of sent byte or '-', if the response is empty>
+<Number of sent bytes or '-', if the response is empty>
 <Referer string ('-'  means direct request without referer)>
-<Client name (browser)>
+<Client info (browser, application)>
 ```
 
 Example of a record:
