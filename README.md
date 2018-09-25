@@ -5,7 +5,7 @@
 
 ### Task
 
-You are to write shell-script that will process an access [log file](http://vseloved.github.io/spos/log.txt.zip) of Apacher web-server and output some information to the console. Your script should use only standard command line tools like `cut`, `grep`, `sort`, `sed`, `date`, etc, and should not use other programming languages like `C`, `Perl`, `Python` etc. The file consists of records. Each line has only one record. A record has the following format:
+You are to write shell-script that will process an [access log file](http://vseloved.github.io/spos/log.txt.zip) of Apacher web-server and output some information to the console (depends on your variant). Your script should use only standard command line tools like `cut`, `grep`, `sort`, `sed` et cetera, and should not use other programming languages like `C`, `Perl`, `Python` etc. The file consists of records. Each line has only one record. A record has the following format:
 
 ```
 <client host> - - [<timestamp with timezone>] 
@@ -23,4 +23,3 @@ host-24-225-218-245.patmedia.net - - [01/Oct/2006:06:33:45 -0700] "GET /example/
 Interpretation of the above record:
 * On **01/Oct/2006:06:33:45 -0700** from the host **host-24-225-218-245.patmedia.net** via **HTTP/1.1** protocol
 was issued a **GET** request to get the resource at **/example/example.atom**. Response code from server is **304**. Such a response has 0 sent bytes (**-**). Referrer is empty. Client used **NetNewsWire/2.0b37** and client OS was **Mac OS X**.
-
