@@ -1,11 +1,11 @@
-Топ-10 рефереров по общему количеству скачанных байт по обращений с них·
-Top 10 referers as per the total amount of received bytes
+### Variant 01
+Output the following information:
 
-Количество скачанных байт для каждого из них как число·
-Количество скачанных байт для каждого из них как процент от общего количества байт, скачанных по обращениям с этих рефереров (Под Топ-10 понимается до 10 штук отсортированных в порядке убывания,
-начиная с самого большого значения)
+* Top 10 referers as per the total amount of sent bytes to them
+* Total number of bytes downloaded for each of the them
+* Percentage of the total amount of bytes downloaded by each of them
 
-Пример вывода:
+Sample output:
 
 ```
 1. http://www.example.org/example/When/200x/2006/09/25/ - 3100 - 74%                                                    
