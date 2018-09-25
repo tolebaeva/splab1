@@ -1,7 +1,7 @@
 ### Variant 01
 Output the following information:
 
-* Top 10 referers as per the total amount of sent bytes to them
+* Top 10 referers as per the total number of bytes downloaded by them
 * Total number of bytes downloaded for each of the them
 * Percentage of bytes downloaded by each of them
 
