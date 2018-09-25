@@ -5,7 +5,7 @@
 
 ### Task
 
-You are to write shell-script that will process an [access log file](http://vseloved.github.io/spos/log.txt.zip) of Apacher web-server and output some information to the console (depends on your variant). Your script should use only standard command line tools like `cut`, `grep`, `sort`, `sed` et cetera, and should not use other programming languages like `C`, `Perl`, `Python` etc. The file consists of records. Each line has only one record. A record has the following format:
+You are to write shell-script that will process an [access log file](http://vseloved.github.io/spos/log.txt.zip) of Apacher web-server and output some information to the console (depends on your [variant](./variants.md)). Your script should use only standard command line tools like `cut`, `grep`, `sort`, `sed` et cetera, and should not use other programming languages like `C`, `Perl`, `Python` etc. The file consists of records. Each line has only one record. A record has the following format:
 
 ```
 <client host> - - [<timestamp with timezone>] 
