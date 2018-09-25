@@ -2,9 +2,9 @@
 
 **`<your university id> % 25 + 1`**
 
-E.g. if your id was `12345567` then you could type the following line in shell to find out your variant:
+E.g. if your id was `1234567` then you could type the following line in shell to find out your variant:
 ```
-expr 12345567 % 25 + 1
+expr 1234567 % 25 + 1
 18
 ```
 
