@@ -1,4 +1,4 @@
-# splab1 - shell scripting
+# splab1 - shell scripting \[deadline is week05 labtime \]
 
 ### Aim
 - To master basic and not-so-basic UNIX/Linux shell commands and scripting.
