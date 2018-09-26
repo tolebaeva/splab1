@@ -1,4 +1,4 @@
-### Variant 05
+### Variant 06
 Output the following information:
 
 * Top 10 dates as per number of downloaded bytes
