@@ -1,7 +1,7 @@
 ### Variant 08
 Output the following information:
 
-* Top 10 URLs as per number of request on 28 Oct 2006
+* Top 10 URLs as per number of request on 28th of October 2006
 * The number of requests for each of them
 * The percentage of requests for each of them
 
