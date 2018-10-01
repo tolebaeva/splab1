@@ -1,7 +1,7 @@
 ### Variant 22
 Output the following information:
 
-* Top 10 applications (ignore their versions) as per the number of downloaded bytes by them
+* Top 10 applications (DO NOT ignore their versions) as per the number of downloaded bytes by them
 * The number of bytes for each of them
 * The percentage of bytes for each of them
 
