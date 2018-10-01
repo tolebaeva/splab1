@@ -1,7 +1,7 @@
 ### Variant 23
 Output the following information:
 
-* Top 10 applications (ignore their versions) that caused errors (code starts with 4)
+* Top 10 applications (DO NOT ignore their versions) that caused errors (code starts with 4)
 * The number of errors for each of them
 * The percentage of errors for each of them
 
