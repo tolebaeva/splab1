@@ -1,7 +1,12 @@
 #! /bin/bash
 
-# run this script as "top10 log.txt"
+lines=$(cut -f1,11 -d" " $1 | grep '"-"' | cut -f1 -d" " | wc -l);
+echo $lines;
+for i in `cut -f1,11 -d" " $1 | grep '"-"' | cut -f1 -d" " | sort -t" " -k1 | uniq -c | sort -r | head -n 10`;
+do if [[ $i =~ ^[0-9]+$ ]]; then
+printf "$i - %0.3f %%" $(echo "($i/$lines)*100" | bc -l);
+else printf " - $i \n"; fi
+done
 
-# here comes your solution
-# e.g.
-grep world $1
+
+
